@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koura Olive House — Authentic Lebanese Olive Oil</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .olive-bg {
+            background-color: #2D4A3E;
+        }
+        .btn-olive {
+            background-color: #D97706;
+            color: #FFFFFF;
+        }
+        .btn-olive:hover {
+            background-color: #B45309;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 flex flex-col min-h-screen font-sans">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white border-b border-stone-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <i class="fa-solid fa-leaf text-2xl text-emerald-700"></i>
+                <span class="text-xl font-bold tracking-tight text-stone-900">Koura Olive House</span>
+            </div>
+            <div class="hidden md:flex space-x-6 text-sm font-semibold text-stone-600">
+                <a href="#about" class="hover:text-emerald-700 transition">About Us</a>
+                <a href="#products" class="hover:text-emerald-700 transition">Products & Prices</a>
+                <a href="#delivery" class="hover:text-emerald-700 transition">Delivery & Returns</a>
+                <a href="#location" class="hover:text-emerald-700 transition">Hours & Location</a>
+            </div>
+            <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="btn-olive px-4 py-2 rounded-lg text-sm font-bold shadow hover:shadow-md transition flex items-center gap-2">
+                <i class="fa-solid fa-circle-question"></i> Have a Question?
+            </a>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO SECTION -->
+    <header class="olive-bg text-white py-16 md:py-24 px-4 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto space-y-6 relative z-10">
+            <span class="bg-emerald-800/80 text-emerald-200 text-xs font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full inline-block border border-emerald-600/50">
+                Bterram, Koura, North Lebanon
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                Koura Olive House
+            </h1>
+            <p class="text-lg md:text-2xl text-stone-200 font-light max-w-2xl mx-auto leading-relaxed">
+                Olive oil from our family groves in Koura, since 1998
+            </p>
+            <div class="pt-6 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#products" class="bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold px-8 py-3.5 rounded-xl shadow-lg transition duration-200">
+                    View Our Products
+                </a>
+                <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-8 py-3.5 rounded-xl border border-white/30 backdrop-blur-sm transition duration-200 flex items-center justify-center gap-2">
+                    <i class="fa-regular fa-envelope"></i> Have a Question?
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION: OUR STORY -->
+    <section id="about" class="py-12 bg-white border-b border-stone-200">
+        <div class="max-w-4xl mx-auto px-4 text-center space-y-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-stone-900">Our Story</h2>
+            <p class="text-stone-600 text-base md:text-lg leading-relaxed">
+                The Napolean family has grown olives in Bterram for three generations. Olives are picked by hand in October and November and pressed within 24 hours at a local press. The family started selling its oil in 1998 and now delivers across Lebanon.
+            </p>
+            <div class="inline-flex items-center gap-2 bg-amber-50 text-amber-800 text-sm font-semibold px-4 py-2 rounded-lg border border-amber-200">
+                <i class="fa-solid fa-calendar-check text-amber-600"></i>
+                New-season oil is available from 15 November 2026.
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: PRODUCTS AND PRICES -->
+    <section id="products" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-3xl font-extrabold text-stone-900">Products & Prices</h2>
+            <p class="text-stone-600 mt-2">All prices are in USD ($). Strictly official rates with no hidden fees.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Product 1 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-bottle-droplet"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Extra Virgin Olive Oil</h3>
+                    <p class="text-sm text-stone-500 mt-1">1-litre tin</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$12</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-bottle-droplet"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Extra Virgin Olive Oil</h3>
+                    <p class="text-sm text-stone-500 mt-1">3-litre tin</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$33</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-bottle-droplet"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Extra Virgin Olive Oil</h3>
+                    <p class="text-sm text-stone-500 mt-1">5-litre tin</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$52</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-amber-100 text-amber-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-jar"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Green Olives</h3>
+                    <p class="text-sm text-stone-500 mt-1">1 kg jar</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$7</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-stone-100 text-stone-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-jar"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Black Olives</h3>
+                    <p class="text-sm text-stone-500 mt-1">1 kg jar</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$8</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-soap"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Olive Oil Soap</h3>
+                    <p class="text-sm text-stone-500 mt-1">Pack of 6 bars</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$9</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="bg-white rounded-2xl border border-stone-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition">
+                <div>
+                    <div class="w-12 h-12 bg-amber-100 text-amber-800 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Za'atar Mix</h3>
+                    <p class="text-sm text-stone-500 mt-1">500 g bag</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-100 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$6</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="bg-white rounded-2xl border border-amber-300 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition bg-gradient-to-b from-amber-50/50 to-white">
+                <div>
+                    <div class="w-12 h-12 bg-amber-500 text-white rounded-xl flex items-center justify-center text-xl font-bold mb-4 shadow-sm">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Gift Box</h3>
+                    <p class="text-xs text-stone-600 mt-1 leading-snug">500 ml bottle of oil + 2 soap bars + 250 g za'atar</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-stone-200 flex justify-between items-center">
+                    <span class="text-2xl font-black text-stone-900">$25</span>
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="text-xs text-emerald-700 font-semibold hover:underline">Inquire</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-6 text-center">
+            <p class="text-xs font-medium text-stone-500 italic">
+                * Note: The 500 ml bottle is sold only inside the gift box.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 3 & 4: DELIVERY, PAYMENT, AND RETURNS -->
+    <section id="delivery" class="py-16 bg-stone-100 border-y border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-extrabold text-stone-900">Delivery, Payment & Returns</h2>
+                <p class="text-stone-600 mt-2">Clear and straightforward policies across Lebanon.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Delivery Info -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm space-y-3">
+                    <div class="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-lg flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Delivery Coverage & Fee</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        We deliver to <strong>all of Lebanon</strong> within 2–4 working days. Next-day delivery is available in Tripoli and Koura.
+                    </p>
+                    <p class="text-sm text-stone-600 font-semibold">
+                        Delivery fee: $4 per order.<br>
+                        <span class="text-emerald-700">Free delivery on orders above $60.</span>
+                    </p>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm space-y-3">
+                    <div class="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-lg flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Payment Options</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        We accept convenient local payment methods upon order placement or arrival:
+                    </p>
+                    <ul class="text-sm text-stone-700 font-medium space-y-1">
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i> Cash on delivery</li>
+                        <li><i class="fa-solid fa-check text-emerald-600 mr-2"></i> Whish Money</li>
+                    </ul>
+                </div>
+
+                <!-- Returns & Damaged Items -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm space-y-3">
+                    <div class="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-lg flex items-center justify-center text-lg font-bold">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-stone-900">Returns & Replacements</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        <strong>Returns:</strong> Unopened products can be returned within 7 days of delivery for a full refund.
+                    </p>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        <strong>Damaged items:</strong> A dented or leaking tin is replaced free of charge if reported on WhatsApp within 48 hours, with a photo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: HOURS AND LOCATION -->
+    <section id="location" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-emerald-900 text-white rounded-3xl p-8 md:p-12 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="space-y-4">
+                <span class="text-emerald-300 font-semibold text-xs uppercase tracking-wider">Visit or Contact Us</span>
+                <h2 class="text-3xl font-extrabold">Opening Hours & Location</h2>
+                <div class="space-y-3 text-stone-200 text-sm">
+                    <p class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-amber-400 mt-1"></i>
+                        <span><strong>Location:</strong> Main road, Bterram, Koura, North Lebanon</span>
+                    </p>
+                    <p class="flex items-start gap-3">
+                        <i class="fa-solid fa-clock text-amber-400 mt-1"></i>
+                        <span><strong>Opening Hours:</strong> Monday to Saturday, 9:00 to 18:00.<br><span class="text-amber-300 font-semibold">Closed on Sundays.</span></span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- SECTION 6: CONTACT INFORMATION -->
+            <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 md:p-8 rounded-2xl space-y-4">
+                <h3 class="text-xl font-bold text-white">Direct Contact</h3>
+                <div class="space-y-2 text-stone-200 text-sm">
+                    <p class="flex items-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+                        <span><strong>WhatsApp:</strong> 70 123 456</span>
+                    </p>
+                    <p class="flex items-center gap-3">
+                        <i class="fa-regular fa-envelope text-emerald-400 text-lg"></i>
+                        <span><strong>Email:</strong> hello@kouraolivehouse.example</span>
+                    </p>
+                </div>
+                <div class="pt-2">
+                    <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="w-full bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold py-3 rounded-xl transition text-center block text-sm shadow-md">
+                        Have a Question? Ask Us Here
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUESTION FORM LINK BANNER SECTION -->
+    <section id="question-form" class="py-12 bg-amber-50 border-t border-amber-200 text-center px-4">
+        <div class="max-w-3xl mx-auto space-y-4">
+            <div class="w-12 h-12 bg-amber-500 text-stone-900 rounded-full flex items-center justify-center text-xl font-bold mx-auto">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-stone-900">Have a Question?</h2>
+            <p class="text-stone-600 text-sm md:text-base max-w-xl mx-auto">
+                If you need custom info, wholesale inquiries, or assistance, click below to fill out our official inquiry form. We guarantee a response within 24 hours!
+            </p>
+            <div class="pt-2">
+                <a href="https://forms.gle/FBpZ8YgkXxMV9ceK7" target="_blank" class="btn-olive font-bold text-base px-8 py-4 rounded-xl shadow-lg hover:shadow-xl inline-flex items-center gap-3 transition">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Google Inquiry Form
+                </a>
+            </div>
+            <p class="text-xs text-stone-400">Owner: Imad Napolean | Koura Olive House</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-stone-900 text-stone-400 text-xs py-8 px-4 mt-auto border-t border-stone-800">
+        <div class="max-w-7xl mx-auto text-center space-y-2">
+            <p class="text-stone-300 font-semibold">Koura Olive House — Bterram, Koura, North Lebanon</p>
+            <p>© 2026 Koura Olive House. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
